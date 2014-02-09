@@ -1,6 +1,8 @@
-# pretty-exponential [![Build Status](https://travis-ci.org/bmcustodio/pretty-exponential.png?branch=master)](http://travis-ci.org/bmcustodio/pretty-exponential)
+# pretty-exponential
 
-> `Number.prototype.toExponential` made beautiful: `-1.243e+31` => `-1.243×10³¹`
+[![Build Status](https://travis-ci.org/bmcustodio/pretty-exponential.png?branch=master)](https://travis-ci.org/bmcustodio/pretty-exponential)
+
+> [`Number.prototype.toExponential`](http://goo.gl/pcx1Tl) made beautiful: `-1.243e+21` ⇒ `-1.243×10²¹`
 
 
 ## Install
@@ -10,13 +12,13 @@ Download [manually](https://github.com/bmcustodio/pretty-exponential/releases) o
 #### [npm](https://npmjs.org/package/to-single-quotes)
 
 ```
-npm install --save pretty-exponential
+npm install pretty-exponential
 ```
 
 #### [Bower](http://bower.io)
 
 ```
-bower install --save pretty-exponential
+bower install pretty-exponential
 ```
 
 #### [Component](https://github.com/component/component)
