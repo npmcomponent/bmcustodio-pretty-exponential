@@ -1,0 +1,16 @@
+{
+  "name": "pretty-exponential",
+  "version": "1.0.0",
+  "main": "pretty-exponential.js",
+  "ignore": [
+    ".*",
+    "component.json",
+    "package.json",
+    "test.js"
+  ],
+  "devDependencies": {
+    "chai": "*",
+    "istanbul": "*",
+    "mocha": "*"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "pretty-exponential",
+  "version": "1.0.0",
+  "description": "`Number.prototype.toExponential` made beautiful.",
+  "keywords": [
+    "exponent",
+    "exponential",
+    "notation",
+    "number",
+    "numerical",
+    "scientific",
+    "toexponential"
+  ],
+  "homepage": "https://github.com/bmcustodio/pretty-exponential",
+  "bugs": {
+    "url": "https://github.com/bmcustodio/pretty-exponential/issues"
+  },
+  "license": "MIT",
+  "author": "Bruno M. Custódio <bruno@brunomcustodio.com>",
+  "files": [
+    "pretty-exponential.js"
+  ],
+  "main": "pretty-exponential.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bmcustodio/pretty-exponential"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R spec"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "istanbul": "*",
+    "mocha": "*"
+  },
+  "engines": {
+    "node": "*"
+  }
+}

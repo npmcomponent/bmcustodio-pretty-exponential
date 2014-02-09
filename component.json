@@ -1,0 +1,26 @@
+{
+  "name": "pretty-exponential",
+  "repo": "bmcustodio/pretty-exponential",
+  "description": "`Number.prototype.toExponential` made beautiful.",
+  "version": "1.0.0",
+  "keywords": [
+    "exponent",
+    "exponential",
+    "notation",
+    "number",
+    "numerical",
+    "scientific",
+    "significand",
+    "toexponential"
+  ],
+  "main": "pretty-exponential.js",
+  "scripts": [
+    "pretty-exponential.js"
+  ],
+  "development": {    
+    "chai": "*",
+    "istanbul": "*",
+    "mocha": "*"
+  },
+  "license": "MIT"
+}
