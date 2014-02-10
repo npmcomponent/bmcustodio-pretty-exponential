@@ -1,6 +1,6 @@
 {
   "name": "pretty-exponential",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "`Number.prototype.toExponential` made beautiful.",
   "keywords": [
     "exponent",
@@ -20,7 +20,7 @@
   "files": [
     "LICENSE",
     "pretty-exponential.js",
-    "pretty-exponential.src.js",
+    "pretty-exponential.min.js",
     "README.md"
   ],
   "main": "pretty-exponential.js",

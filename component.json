@@ -2,7 +2,7 @@
   "name": "pretty-exponential",
   "repo": "bmcustodio/pretty-exponential",
   "description": "`Number.prototype.toExponential` made beautiful.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "exponent",
     "exponential",
@@ -16,7 +16,7 @@
   "main": "pretty-exponential.js",
   "scripts": [
     "pretty-exponential.js",
-    "pretty-exponential.src.js"
+    "pretty-exponential.min.js"
   ],
   "files": [
     "LICENSE",
