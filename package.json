@@ -18,7 +18,10 @@
   "license": "MIT",
   "author": "Bruno M. Custódio <bruno@brunomcustodio.com>",
   "files": [
-    "pretty-exponential.js"
+    "LICENSE",
+    "pretty-exponential.js",
+    "pretty-exponential.src.js",
+    "README.md"
   ],
   "main": "pretty-exponential.js",
   "repository": {

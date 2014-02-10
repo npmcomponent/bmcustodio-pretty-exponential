@@ -15,7 +15,12 @@
   ],
   "main": "pretty-exponential.js",
   "scripts": [
-    "pretty-exponential.js"
+    "pretty-exponential.js",
+    "pretty-exponential.src.js"
+  ],
+  "files": [
+    "LICENSE",
+    "README.md"
   ],
   "development": {    
     "chai": "*",
