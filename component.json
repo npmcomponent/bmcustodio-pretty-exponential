@@ -22,10 +22,5 @@
     "LICENSE",
     "README.md"
   ],
-  "development": {    
-    "chai": "*",
-    "istanbul": "*",
-    "mocha": "*"
-  },
   "license": "MIT"
 }

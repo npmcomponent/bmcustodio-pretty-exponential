@@ -7,10 +7,5 @@
     "component.json",
     "package.json",
     "test.js"
-  ],
-  "devDependencies": {
-    "chai": "*",
-    "istanbul": "*",
-    "mocha": "*"
-  }
+  ]
 }

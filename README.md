@@ -1,6 +1,8 @@
 # pretty-exponential
 
 [![Build Status](https://travis-ci.org/bmcustodio/pretty-exponential.png?branch=master)](https://travis-ci.org/bmcustodio/pretty-exponential)
+[![Coverage Status](https://coveralls.io/repos/bmcustodio/pretty-exponential/badge.png?branch=master)](https://coveralls.io/r/bmcustodio/pretty-exponential?branch=master)
+[![NPM version](https://badge.fury.io/js/pretty-exponential.png)](http://badge.fury.io/js/pretty-exponential)
 
 [`Number.prototype.toExponential`](http://goo.gl/pcx1Tl) made beautiful: `-1.243e+21` ⇒ `-1.243×10²¹`
 
