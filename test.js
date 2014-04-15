@@ -75,6 +75,8 @@ describe('prettyExponential', function () {
     });
 
     it('rejects non-numerical string values as \'number\'', function () {
+        expect(function () { exp(null); }).to.throw(TypeError);
+        expect(function () { exp(); }).to.throw(TypeError);
         expect(function () { exp('1.2a3'); }).to.throw(TypeError);
         expect(function () { exp(/1.013/); }).to.throw(TypeError);
         expect(function () { exp([1,2,3]); }).to.throw(TypeError);

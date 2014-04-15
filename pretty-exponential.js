@@ -1,5 +1,5 @@
 /*!
- *  pretty-exponential 1.0.1 (https://github.com/bmcustodio/pretty-exponential)
+ *  pretty-exponential 1.0.2 (https://github.com/bmcustodio/pretty-exponential)
  *  Copyright 2014 Bruno M. Custódio
  *  MIT License
  */
@@ -25,6 +25,10 @@
     var regex = /(\-?\d(?:\.\d+)?)e\+?(\-?\d+)/;
 
     var prettyExponential = function (number, precision) {
+        if (number === null) {
+            throw new TypeError('Non-numerical or non-finite value found');
+        }
+
         var matches = Number(number).toExponential(precision).match(regex);
 
         if (!matches) {
