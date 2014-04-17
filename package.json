@@ -1,7 +1,7 @@
 {
-  "name": "pretty-exponential",
-  "version": "1.0.2",
+  "name": "bmcustodio-pretty-exponential",
   "description": "`Number.prototype.toExponential` made beautiful.",
+  "version": "1.0.2",
   "keywords": [
     "exponent",
     "exponential",
@@ -9,36 +9,10 @@
     "number",
     "numerical",
     "scientific",
+    "significand",
     "toexponential"
   ],
-  "homepage": "https://github.com/bmcustodio/pretty-exponential",
-  "bugs": {
-    "url": "https://github.com/bmcustodio/pretty-exponential/issues"
-  },
-  "license": "MIT",
-  "author": "Bruno M. Custódio <bruno@brunomcustodio.com>",
-  "files": [
-    "LICENSE",
-    "pretty-exponential.js",
-    "pretty-exponential.min.js",
-    "README.md"
-  ],
   "main": "pretty-exponential.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/bmcustodio/pretty-exponential"
-  },
-  "scripts": {
-    "test": "istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec"
-  },
-  "devDependencies": {
-    "chai": "*",
-    "coveralls": "*",
-    "istanbul": "*",
-    "mocha": "*",
-    "mocha-lcov-reporter": "*"
-  },
-  "engines": {
-    "node": "*"
-  }
+  "dependencies": {},
+  "license": "MIT"
 }
